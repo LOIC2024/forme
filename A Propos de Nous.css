@@ -1,0 +1,182 @@
+                      
+                      
+                      
+                      
+                      /* HEADER */
+                      .navbar{
+                        padding: 0px;
+                        margin: 0px;
+                        background: orange;
+                        justify-content:fixed ;
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        z-index: 1;
+                    }
+                    .navbar .menubar{
+                        display: flex;
+                        align-items: center;
+                    }
+                    .navbar .menubar .principal{
+                        display: flex;
+                    }
+                    
+                    .navbar .menubar .principal .sub{
+                        display: flex;
+                        align-items: center;
+                        margin: 10px;
+                        list-style: none;
+                    }
+                    .menubar .principal .sub .menu{
+                        
+                        color: blue;
+                        font-size: 18px;
+                        font-weight: bolder;
+                        margin-left: 55px;
+                        text-decoration: none;
+                        position: relative;
+                    }
+                    .principal .sub .menu:hover{
+                        color: yellow;
+                    }
+                    .principal .vas{
+                        list-style: none;
+                        flex-direction: column;
+                        display: none;
+                    }
+                    .principal .vas .submenu .men{
+                        position: relative;
+                        display: block;
+                        font-size: 16px;
+                        font-weight: 900;
+                        color: rgb(135, 149, 228)
+                    }
+                    
+                    .submenu .men{
+                        padding: 10px;
+                        margin: 10px;
+                        background-color:khaki;
+                        text-decoration: none;
+                    }
+                    
+                    .sub:hover .vas{
+                        display: block;
+                    }
+                    .submenu:hover .men{
+                        background-color: yellow;
+                    }
+                    
+
+                    /* section */
+
+
+
+
+
+                    /* HISTORIQUE */
+                    .histoire{
+                        margin: 10%;
+                        padding: 5%;
+                        justify-content: space-between;
+                        align-items: space-between;
+                        
+                    }
+                    .histoire .img1 img{
+                        left: 5%;
+                        margin-left: -24%;
+                        
+                    }
+                    .histoire .partie1{
+                        font-size: 20px;
+                        margin-left: 20%;
+                        margin-top: -23%;
+                    }
+                    .histoire .partie1 h1{
+                        color: darkgoldenrod;
+                    }
+                    .histoire .partie1 h1 span{
+                        color: orange;
+                        font-size: 300%;
+                        font-family: 'Segoe UI';
+                    }
+
+                    /* VISION */
+
+                    .vision{
+                        margin: 8%;
+                        padding: 5%;
+                        justify-content: space-between;
+                        align-items: space-between;
+                    }
+                    .vision .partie2{
+                        font-size: 20px;
+                        margin-left: -17%;
+                        margin-top: -21%;
+                    }
+                    .vision .partie2 h1{
+                        color: darkgoldenrod;
+                    }
+                    .vision .partie2 h1 span{
+                        color: orange;
+                        font-size: 300%;
+                        font-family: 'Segoe UI';
+                    }
+                    .vision .img2 img{
+                        width: 25%;
+                        height: 25%;
+                        margin-top: -23%;
+                        margin-left: 90%;
+                        
+                    }
+
+                    /* MISSION */
+
+                    .mission{
+                        margin: 5%;
+                        padding: 5%;
+                        justify-content: space-between;
+                        align-items: space-between;
+                        margin-top: -10%;
+                    }
+                    .mission .img3 img{
+                        left: 5%;
+                        margin-left: -15%;
+                        width: 25%;
+                        height: 25%;
+                    }
+                    .mission .partie3{
+                        font-size: 20px;
+                        margin-left: 15%;
+                        margin-top: -23%;
+                    }
+                    .mission .partie3{
+                        font-size: 20px;
+                        margin-left: 15%;
+                        margin-top: -23%;
+                    }
+                    .mission .partie3 h1{
+                        color:  darkgoldenrod;
+                    }
+                    .mission .partie3 h1 span{
+                        color: orange;
+                        font-size: 300%;
+                        font-family: 'Segoe UI';
+                    }
+                    
+                    /* copyright */
+
+.copyright{
+    padding: 20px;
+    border-top: 2px solid black;
+    background: orange;
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: blue;
+    font-weight: bolder;
+}
+.copyright a{
+    color: black;
+    text-decoration: none;
+    font-style: italic ;
+}

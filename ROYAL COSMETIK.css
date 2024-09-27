@@ -1,0 +1,221 @@
+
+
+/* HEADER */
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    background: orange;
+    justify-content:fixed ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar .menubar{
+    display: flex;
+    align-items: center;
+}
+.navbar .menubar .principal{
+    display: flex;
+}
+
+.navbar .menubar .principal .sub{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    list-style: none;
+}
+.menubar .principal .sub .menu{
+    
+    color: blue;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 55px;
+    text-decoration: none;
+    position: relative;
+}
+.principal .sub .menu:hover{
+    color: yellow;
+}
+.principal .vas{
+    list-style: none;
+    flex-direction: column;
+    display: none;
+}
+.principal .vas .submenu .men{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(135, 149, 228)
+}
+
+.submenu .men{
+    padding: 10px;
+    margin: 10px;
+    background-color:khaki;
+    text-decoration: none;
+}
+.submenu:hover .men{
+    background-color: yellow;
+}
+.sub:hover .vas{
+    display: block;
+}
+
+                                          /* royalcosmetik */
+
+.royalcos img{
+    margin-left: 35%;
+    margin-top: 8%;
+}
+
+                                                 /* hr */
+hr{
+    color: black;
+    font-size: 35%;
+    font-weight: bolder;
+}  
+
+                                               /* savon noir */
+.savonoir .exp h1{
+    margin-left: 40%;
+    font-size: 300%;
+}
+.savonoir .exp h1 .P1{
+    color: darkorange;
+}
+
+.savonoir .exp h1 .P2{
+    color: darkkhaki;
+}
+.savonoir .exp h1 .P3{
+    color: green;
+}
+.savonoir .exp P{
+    font-size: 25px;
+    color: olive;
+}
+
+.savonoir .imga img{
+    margin: 10%;
+    width: 50%;
+    height: 50%;
+    margin-top: -1%;
+    margin-left: 25%;
+}
+
+                           /* GEL DOUCHE */
+                           .geldouche .exp1 h1{
+                            margin-left: 40%;
+                            font-size: 300%;
+                        }
+                        .geldouche .exp1 h1 .P1{
+                            color: darkorange;
+                        }
+                        .geldouche .exp1 h1 .P2{
+                            color: darkkhaki;
+                        }
+                        
+                            .geldouche .exp1 h1 .P3{
+                            color: green;
+                        }
+                        .geldouche .exp1 P{
+                            font-size: 25px;
+                            color: olive;
+                            margin-left: 40%;
+                            
+
+                            
+                        }
+                        
+                        .geldouche .img1 img{
+                            margin: 10%;
+                            width: 25%;
+                            height: 25%;
+                            margin-top: -10%;
+                            left: 5%;
+                        }
+
+
+                                             /* Lave Main */
+                                             .gelmain .exp2 h1{
+                                                margin-left: 40%;
+                                                font-size: 300%;
+                                            }
+                                            .gelmain .exp2 h1 .P1{
+                                                color: darkorange;
+                                            }
+                                            .gelmain .exp2 h1 .P3{
+                                                color: darkkhaki;
+                                            }
+                                            .gelmain .exp2 h1 .P2{
+                                                color: green;
+                                            }
+                                            .gelmain .exp2 p{
+                                                font-size: 25px;
+                                                color: olive;
+                                            }
+                                            .gelmain .img2{
+                                                justify-content: space-between;
+                                            }
+                                            .gelmain .img2 img{
+                                                width: 25%;
+                                                height: 25%;
+                                                margin-left: 20%;
+                                                
+                                            }
+                                             
+                                            
+                                                  /* savon liquide */
+                                                  .savonliquide .exp3 h1{
+                                                    margin-left: 40%;
+                                                    font-size: 300%;
+                                                }
+                                                .savonliquide .exp3 h1 .P1{
+                                                    color: darkorange;
+                                                }
+                                                .savonliquide .exp3 h1 .P3{
+                                                    color: darkkhaki;
+                                                }
+                                                .savonliquide .exp3 h1 .P2{
+                                                    color: green;
+                                                }
+                                                .savonliquide .exp3 p{
+                                                    font-size: 25px;
+                                                    color: olive;
+                                                    margin-right: 40%;
+                                                }
+                                                .savonliquide .img3 img{
+                                                    margin: 10%;
+                                                    width: 25%;
+                                                    height: 25%;
+                                                    margin-left: 70%;
+                                                    margin-top: -10%;
+                                                }
+
+
+
+
+
+
+
+
+
+
+/* copyright */
+
+.copyright{
+    padding: 20px;
+    border-top: 2px solid black;
+    background: orange;
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: blue;
+    font-weight: bolder;
+}
+.copyright a{
+    color: black;
+    text-decoration: none;
+    font-style: italic ;
+}

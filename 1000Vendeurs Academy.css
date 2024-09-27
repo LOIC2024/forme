@@ -1,0 +1,259 @@
+
+/* HEADER */
+
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    background: orange;
+    justify-content:fixed ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    
+}
+.navbar .menubar{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar .menubar .principal{
+    display: flex;
+    
+}
+
+.navbar .menubar .principal .sub{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    list-style: none;
+    
+}
+.menubar .principal .sub .menu{
+    
+    color: blue;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 55px;
+    text-decoration: none;
+    position: relative;
+    
+}
+.principal .sub .menu:hover{
+    color: yellow;
+}
+.principal .vas{
+    list-style: none;
+    flex-direction: column;
+    display: none;
+}
+.principal .vas .submenu .men{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(135, 149, 228)
+}
+
+.submenu .men{
+    padding: 10px;
+    margin: 10px;
+    background-color:khaki;
+    text-decoration: none;
+}
+.submenu:hover .men{
+    background-color: yellow;
+}
+.sub:hover .vas{
+    display: block;
+}
+
+                                  /* debut */
+
+.debut .imag img{
+    margin: 8%;
+    width: 15%;
+    height: 15%;
+    margin-left: 37%;
+} 
+.debut .imge{
+    margin: 1%;
+    justify-content: space-between;
+}
+.debut .imge img{
+    margin: 1%;
+    width: 30%;
+    height: 30%;
+}
+.debut h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: rgb(179, 162, 12);
+    margin-left: 35%;
+    font-family: 'Lucida Sans Regular';
+}
+
+                                /* Art Oratoire */
+.art{
+    justify-content: space-between;
+}
+.art .oratoire{
+    right: -25%;
+
+}
+
+.art .oratoire h1{
+    font-size: 40px;
+    color: peru;
+    margin-left: 39%;
+}
+.art .oratoire p{
+    font-size: 18px;
+    margin-left: 45%;   
+}
+.art .img img{
+    margin-top: -7%;
+}
+
+
+                                /* BUREAUTIQUE */
+
+.buro{
+    justify-content: space-between;
+} 
+.buro .tique{
+    right: 15%;
+}
+.buro .tique h1{
+    font-size: 40px;
+    color: peru;
+    margin-left: 39%;
+}
+.buro .tique P{
+    font-size: 18px;
+    margin-left: -15%;
+    margin: 5%;
+    
+}
+.buro .img1 img{
+    margin-left: 78%;
+    margin-top: -12%;
+}
+
+                                 /* cOMMUNITY MANAGER */
+                                 .comm{
+                                    justify-content: space-between;
+                                    
+                                } 
+                                .comm .mana{
+                                    right: 15%;
+                                    margin: 2%;
+                                }
+                                .comm .mana h1{
+                                    font-size: 40px;
+                                    color: peru;
+                                    margin-left: 39%;
+                                }
+                                .comm .mana P{
+                                    font-size: 18px;
+                                    margin-left: 35%;
+                                    
+                                    
+                                }
+                                .comm .img2 img{
+                                    margin-top: -12%;
+                                }
+
+
+                                /* INFOGRAPHIE */
+                                .info{
+                                    justify-content: space-between;
+                                } 
+                                .info .graphie{
+                                    right: 15%;
+                                }
+                                .info .graphie h1{
+                                    font-size: 40px;
+                                    color: peru;
+                                    margin-left: 39%;
+                                }
+                                .info .graphie P{
+                                    font-size: 18px;
+                                    margin-left: -15%;
+                                    margin: 5%;
+                                    
+                                }
+                                .info .img3 img{
+                                    margin-left: 80%;
+                                    margin-top: -12%;
+                                }
+
+                                /* Marketing DIGITAL */
+                                .marketing{
+                                    justify-content: space-between;
+                                    
+                                } 
+                                .marketing .digital{
+                                    right: 15%;
+                                    margin: 2%;
+                                }
+                                .marketing .digital h1{
+                                    font-size: 40px;
+                                    color: peru;
+                                    margin-left: 39%;
+                                }
+                                .marketing .digital P{
+                                    font-size: 18px;
+                                    margin-left: 35%;
+                                    
+                                    
+                                }
+                                .marketing .img4 img{
+                                    margin-top: -12%;
+                                }
+
+                                /* vENTE */
+                                .vente{
+                                    justify-content: space-between;
+                                } 
+                                .vente .vent{
+                                    right: 15%;
+                                }
+                                .vente .vent h1{
+                                    font-size: 40px;
+                                    color: peru;
+                                    margin-left: 45%;
+                                }
+                                .vente .vent P{
+                                    font-size: 18px;
+                                    margin-left: -15%;
+                                    margin: 5%;
+                                    
+                                }
+                                .vente .img5 img{
+                                    margin-left: 70%;
+                                    margin-top: -12%;
+                                }
+
+
+
+
+
+
+/* copyright */
+
+.copyright{
+    padding: 20px;
+    border-top: 2px solid black;
+    background: orange;
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: blue;
+    font-weight: bolder;
+}
+.copyright a{
+    color: black;
+    text-decoration: none;
+    font-style: italic ;
+}
